@@ -11,6 +11,23 @@ body {
   color: #fff;
   height: 94px;
 }
+.header {
+  min-height: 100vh;
+}
+.header-image {
+  background-image: url('../img/header-bg.jfif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.header-image::before {
+  content:"";
+  position: absolute;
+  background-color: #292d3399;
+  top: 0;
+  left: 0;
+}
 .header-logo {
   padding: 25px 50px;
 }
