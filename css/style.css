@@ -51,7 +51,7 @@ body {
   background-image: url('../img/header-bg.jfif');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: .3125rem -15.625rem;
+  background-position: center bottom -2.9375rem;
   position: relative;
 }
 .header-image::before {
@@ -276,7 +276,24 @@ body {
   html {
     font-size: 14px;
   }
-  .header-image {
-    background-position: 0rem -16.625rem;
+}
+@media (max-width: 1546px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1439px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1330px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media (max-width: 1223px) {
+  html {
+    font-size: 10px;
   }
 }
