@@ -31,6 +31,9 @@ body {
   border-bottom: .0625rem solid rgba(235, 235, 240, 0.20);
   transition: background-color 0.2s, height 0.2s;
 }
+.logo-phone {
+  fill: #5c8ee6;
+}
 .navbar-light {
   background-color: #fff;
   color: #292d33;
@@ -111,6 +114,9 @@ body {
   border: none;
   display: inline-block;
   cursor: pointer;
+}
+.navbar-button .button-icon {
+  display: none;
 }
 .navbar-button {
   flex-shrink: 0;
@@ -338,5 +344,31 @@ body {
     flex-grow: 1;
     justify-content: center;
   }
-  
+  .mobile-menu-toggle {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.8rem;
+    border-right: 1px solid rgba(235, 235, 240, 0.20);
+  }
+  .navbar-light .mobile-menu-line {
+    background-color: #333;
+  }
+  .mobile-menu-line {
+    height: 1px;
+    background-color: #fff;
+    width: 100%;
+  }
+  .mobile-menu-line:nth-child(2) {
+    width: 80%;
+  }
+  .navbar-button .button-text {
+    display: none;
+  }
+  .navbar-button .button-icon {
+    display: block;
+    fill: #ffffff;
+  }  
 }
