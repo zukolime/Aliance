@@ -79,12 +79,14 @@ body {
   padding-left: 3.125rem;
   margin: 0;  
 }
+.header-nav-item:not(:last-child) {
+  margin-right: 3.125rem;
+}
 .header-nav-link {
   text-decoration: none;
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: .0081rem;
-  margin-right: 3.1875rem;
   color: inherit;
 }
 .header-phone {
@@ -126,8 +128,8 @@ body {
 }
 .seporator {
   background: #5c8ee5;
-  width: 9.375rem;
-  height: .125rem;
+  width: 150px;
+  height: 2px;
   margin-left: .5625rem;
 }
 .header-content {
@@ -272,28 +274,69 @@ body {
   width: 2.5rem;
   margin-right: 1.25rem;
 }
-@media (max-width: 1759px) {
+@media (max-width: 1700px) {
   html {
     font-size: 14px;
   }
-}
-@media (max-width: 1546px) {
-  html {
-    font-size: 13px;
+  .header-image {
+    background-position: center;
   }
 }
-@media (max-width: 1439px) {
+@media (max-width: 1487px) {  
+  .header-logo {
+    padding: 2rem;
+  }
+  .logo-svg {
+    max-width: 6rem;
+  }
+  .header-nav {
+    padding-left: 2rem;
+  }
+  .header-nav-item:not(:last-child) {
+    margin-right: 1rem;
+  }
+  .header-phone {
+    margin-right: 2rem;
+  }
+}
+@media (max-width: 1277px) {
+  .container {
+    max-width: 70rem;
+  }
+  .header-phone {
+    display: none;
+  }  
+  .navbar {
+    height: 5rem;
+  }
+  .navbar-button {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 1180px) {
+  html {
+  font-size: 13px;
+  }
+}
+@media (max-width: 1000px) {
+    .header-nav {
+      padding-left: 1rem;
+    }
+  }
+@media (max-width: 992px) {
   html {
     font-size: 12px;
   }
-}
-@media (max-width: 1330px) {
-  html {
-    font-size: 11px;
+  .container {
+    max-width: 60rem;
   }
-}
-@media (max-width: 1223px) {
-  html {
-    font-size: 10px;
+  .header-nav {
+    display: none;
   }
+  .header-logo {
+    flex-grow: 1;
+    justify-content: center;
+  }
+  
 }
