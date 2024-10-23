@@ -322,6 +322,9 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+  .header-features {
+    width: 100%;
+  }
 }
 @media (max-width: 1180px) {
   html {
