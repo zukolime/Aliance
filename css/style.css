@@ -450,3 +450,8 @@ body {
     color: #292d33;
   }
 }
+@media (max-width: 852px) {
+  .header-features, .steps {
+    overflow: hidden;
+  }
+}
