@@ -130,6 +130,10 @@ document.addEventListener("keyup", (event) => {
     modal.classList.toggle("is-open");
 });
 
+Inputmask({ mask: "+7 (999) 999-99-99" }).mask(
+  document.querySelectorAll(".masked-phone")
+);
+
 const modalSuccess = document.querySelector(".modal-success");
 const forms = document.querySelectorAll("form");
 
