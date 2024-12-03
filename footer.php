@@ -17,8 +17,6 @@
                   name="user_name"
                   class="input"
                   placeholder=" "
-                  maxlength="100"
-                  required
                 />
                 <label class="input-group-label" for="user-name">Имя</label>
               </div>
@@ -27,10 +25,9 @@
                   id="user-phone"
                   type="tel"
                   name="user_phone"
-                  class="input"
+                  class="input masked-phone"
                   placeholder=" "
-                  maxlength="30"
-                  required
+                  data-phonemask="+7 (___) ___-__-__"
                 />
                 <label class="input-group-label" for="user-phone"
                   >Номер телефона</label
@@ -58,7 +55,7 @@
         <!-- /.cta-form-wrapper -->
       </div>
     </section>
-    <footer class="footer">
+  <footer class="footer">
       <div class="container">
         <div class="footer-top">
           <svg class="logo-svg footer-logo">
@@ -186,13 +183,15 @@
               ответит на все интересующие вопросы и поможем даже в самых сложных
               случаях!
             </p>
-            <form action="#" class="modal-form">
+            <form action="handler.php" method="POST" class="modal-form">
               <div class="input-group-wrapper input-group-vertical">
                 <div class="input-group modal-input-group">
                   <input
                     id="user-name"
                     type="text"
                     class="input modal-input"
+                    name="user_name"
+                    class="input"
                     placeholder=" "
                   />
                   <label
@@ -205,8 +204,10 @@
                   <input
                     id="modal-user-phone"
                     type="tel"
-                    class="input modal-input"
+                    name="user_phone"
+                    class="input modal-input masked-phone"
                     placeholder=" "
+                    data-phonemask="+7 (___) __-___-___"
                   />
                   <label
                     class="input-group-label modal-input-label"
@@ -237,5 +238,9 @@
             </form>
           </div>
         </div>
-        <script src="./js/swiper-bundle.min.js"></script>
+        <script src="./js/swiper-bundle.min.js"></script>        
+        <script src="./js/just-validate.production.min.js"></script>
+        <script src="./js/phone-mask.min.js"></script>
         <script src="./js/main.js"></script>
+   </body>
+</html>
