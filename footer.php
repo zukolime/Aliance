@@ -238,6 +238,24 @@
             </form>
           </div>
         </div>
+        
+        <div class="modal modal-success">
+          <div class="modal-dialog">
+            <img class="image-success" src="./img/success.jpg" alt="success">
+            <h2 class="modal-title modal-title-success">Спасибо за заявку!</h2>
+            <a href="#" class="modal-close" data-toggle="modal">
+              <svg class="close-icon" width="24" height="24">
+                <use href="./img/sprite.svg#close"></use>
+              </svg>
+            </a>
+            <p class="modal-text">
+              Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+            </p>
+            <a href="./index.php" class="button modal-success-button">
+                  Вернуться на главную
+            </a>
+        </div>
+
         <script src="./js/swiper-bundle.min.js"></script>        
         <script src="./js/just-validate.production.min.js"></script>
         <script src="./js/phone-mask.min.js"></script>

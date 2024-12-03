@@ -130,7 +130,9 @@ document.addEventListener("keyup", (event) => {
     modal.classList.toggle("is-open");
 });
 
+const modalSuccess = document.querySelector(".modal-success");
 const forms = document.querySelectorAll("form");
+
 forms.forEach((form) => {
   const validation = new JustValidate(form, {
     errorFieldCssClass: "is-invalid",
@@ -163,7 +165,7 @@ forms.forEach((form) => {
         }).then((response) => {
           if (response.ok) {
             thisForm.reset();
-            alert("Форма отправлена");
+            modalSuccess.classList.toggle("is-open");
           } else {
             alert("Ошибка. Текст ошибки: ".response.statusText);
           }
@@ -171,4 +173,20 @@ forms.forEach((form) => {
       };
       ajaxSend(formData);
     });
+});
+
+document.addEventListener("click", (event) => {
+  if (
+    event.target.dataset.toggle == "modal-success" ||
+    event.target.parentNode.dataset.toggle == "modal-success" ||
+    (!event.composedPath().includes(modalDialog) &&
+      modalSuccess.classList.contains("is-open"))
+  ) {
+    event.preventDefault();
+    modalSuccess.classList.toggle("is-open");
+  }
+});
+document.addEventListener("keyup", (event) => {
+  if (event.key == "Escape" && modalSuccess.classList.contains("is-open"))
+    modalSuccess.classList.toggle("is-open");
 });

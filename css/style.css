@@ -963,6 +963,28 @@ body {
 .modal-notify {
   margin-top: 0.4rem;
 }
+.modal-success.is-open {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+.image-success {
+  width: 22.5rem;
+  height: 19.375rem;
+}
+.modal-title-success {
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
+}
+.modal-success-button {
+  text-decoration: none;
+  width: 100%;
+  height: 3.875rem;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  justify-content: center;
+}
 .about {
   margin-top: -8.4rem;
 }
