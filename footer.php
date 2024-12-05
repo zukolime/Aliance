@@ -25,7 +25,7 @@
                   id="user-phone"
                   type="tel"
                   name="user_phone"
-                  class="input masked-phone"
+                  class="input phone-mask"
                   placeholder=" "
                 />
                 <label class="input-group-label" for="user-phone"
@@ -204,7 +204,7 @@
                     id="modal-user-phone"
                     type="tel"
                     name="user_phone"
-                    class="input modal-input masked-phone"
+                    class="input modal-input phone-mask"
                     placeholder=" "
                   />
                   <label
@@ -256,9 +256,7 @@
 
         <script src="./js/swiper-bundle.min.js"></script>        
         <script src="./js/just-validate.production.min.js"></script>
-        <script src="./js/inputmask.binding.js"></script>
-        <script src="./js/inputmask.js"></script>
-        <!-- <script src="./js/phone-mask.min.js"></script> -->
         <script src="./js/main.js"></script>
+        
    </body>
 </html>
