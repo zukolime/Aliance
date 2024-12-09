@@ -111,24 +111,94 @@ const swiperBlog = new Swiper(".blog-slider", {
   },
 });
 
-const modal = document.querySelector(".modal");
-const modalDialog = document.querySelector(".modal-dialog");
+let currentModal;
+let modalDialog;
+let alertModal = document.querySelector("#alert-modal");
 
-document.addEventListener("click", (event) => {
-  if (
-    event.target.dataset.toggle == "modal" ||
-    event.target.parentNode.dataset.toggle == "modal" ||
-    (!event.composedPath().includes(modalDialog) &&
-      modal.classList.contains("is-open"))
-  ) {
+const modalButtons = document.querySelectorAll("[data-toggle=modal]"); // переключатели модальных окон
+modalButtons.forEach((button) => {
+  // клик по переключателю
+  button.addEventListener("click", (event) => {
     event.preventDefault();
-    modal.classList.toggle("is-open");
+    // определяем текущее открытое окно
+    currentModal = document.querySelector(button.dataset.target);
+    // открываем текущее окно
+    currentModal.classList.toggle("is-open");
+    // назначаем диалоговое окно
+    modalDialog = currentModal.querySelector(".modal-dialog");
+    // отслеживаем клик по окну и пустым областям
+    currentModal.addEventListener("click", (event) => {
+      // если клик в пустую область (не диалог)
+      if (!event.composedPath().includes(modalDialog)) {
+        // закрываем окно
+        currentModal.classList.remove("is-open");
+      }
+    });
+  });
+});
+//  ловим событие нажатия на кнопки
+document.addEventListener("keyup", (event) => {
+  //  проверяем, что это Escape и текущее окно открыто
+  if (event.key == "Escape" && currentModal.classList.contains("is-open")) {
+    //  закрываем текущее окно
+    currentModal.classList.toggle("is-open");
   }
 });
-document.addEventListener("keyup", (event) => {
-  if (event.key == "Escape" && modal.classList.contains("is-open"))
-    modal.classList.toggle("is-open");
+
+// валидация форм:
+const forms = document.querySelectorAll("form");
+
+forms.forEach((form) => {
+  const validation = new JustValidate(form, {
+    errorFieldCssClass: "is-invalid",
+  });
+  validation
+    .addField("[name=user_name]", [
+      {
+        rule: "required",
+        errorMessage: "Укажите имя",
+      },
+      {
+        rule: "maxLength",
+        value: 50,
+        errorMessage: "Максимально 50 символов",
+      },
+    ])
+    .addField("[name=user_phone]", [
+      {
+        rule: "required",
+        errorMessage: "Укажите телефон",
+      },
+    ])
+    .onSuccess((event) => {
+      const thisForm = event.target; // наша форма
+      const formData = new FormData(thisForm); // данные из нашей формы
+      const ajaxSend = (formData) => {
+        fetch(thisForm.getAttribute("action"), {
+          method: thisForm.getAttribute("method"),
+          body: formData,
+        }).then((response) => {
+          if (response.ok) {
+            thisForm.reset();
+            currentModal.classList.remove("is-open");
+            alertModal.classList.add("is-open");
+            currentModal = alertModal;
+            modalDialog = currentModal.querySelector(".modal-dialog");
+            currentModal.addEventListener("click", (event) => {
+              if (!event.composedPath().includes(modalDialog)) {
+                currentModal.classList.remove("is-open");
+              }
+            });
+          } else {
+            alert("Ошибка. Текст ошибки: ".response.statusText);
+          }
+        });
+      };
+      ajaxSend(formData);
+    });
 });
+
+// маска телефона:
 
 /* Создаем префикс +7, даже если вводят 8 или 9 */
 const prefixNumber = (str) => {
@@ -198,65 +268,4 @@ document.addEventListener("input", (e) => {
     /* итог: номер в формате +7 (999) 123-45-67 */
     input.value = result;
   }
-});
-
-const modalSuccess = document.querySelector(".modal-success");
-const forms = document.querySelectorAll("form");
-
-forms.forEach((form) => {
-  const validation = new JustValidate(form, {
-    errorFieldCssClass: "is-invalid",
-  });
-  validation
-    .addField("[name=user_name]", [
-      {
-        rule: "required",
-        errorMessage: "Укажите имя",
-      },
-      {
-        rule: "maxLength",
-        value: 50,
-        errorMessage: "Максимально 50 символов",
-      },
-    ])
-    .addField("[name=user_phone]", [
-      {
-        rule: "required",
-        errorMessage: "Укажите телефон",
-      },
-    ])
-    .onSuccess((event) => {
-      const thisForm = event.target; // наша форма
-      const formData = new FormData(thisForm); // данные из нашей формы
-      const ajaxSend = (formData) => {
-        fetch(thisForm.getAttribute("action"), {
-          method: thisForm.getAttribute("method"),
-          body: formData,
-        }).then((response) => {
-          if (response.ok) {
-            thisForm.reset();
-            modalSuccess.classList.toggle("is-open");
-          } else {
-            alert("Ошибка. Текст ошибки: ".response.statusText);
-          }
-        });
-      };
-      ajaxSend(formData);
-    });
-});
-
-document.addEventListener("click", (event) => {
-  if (
-    event.target.dataset.toggle == "modal-success" ||
-    event.target.parentNode.dataset.toggle == "modal-success" ||
-    (!event.composedPath().includes(modalDialog) &&
-      modalSuccess.classList.contains("is-open"))
-  ) {
-    event.preventDefault();
-    modalSuccess.classList.toggle("is-open");
-  }
-});
-document.addEventListener("keyup", (event) => {
-  if (event.key == "Escape" && modalSuccess.classList.contains("is-open"))
-    modalSuccess.classList.toggle("is-open");
 });

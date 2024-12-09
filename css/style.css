@@ -643,7 +643,7 @@ body {
 }
 
 .clients-logo {
-  max-width: 40%;
+  max-width: 50%;
   width: 4.375rem;
   height: 4.375rem;
 }
@@ -1003,6 +1003,11 @@ body {
   color: inherit;
 }
 
+.logo-ruso {
+  width: 3.25rem;
+  height: 0.6875rem;
+}
+
 .mobile-made-in {
   display: none;
 }
@@ -1126,8 +1131,8 @@ body {
 }
 
 .modal-title-success {
-  margin-top: 1.875rem;
-  margin-bottom: 1.25rem;
+  margin-top: 0.875rem;
+  margin-bottom: 1.45rem;
 }
 
 .modal-success-button {
@@ -1138,6 +1143,9 @@ body {
   align-items: center;
   padding: 0;
   justify-content: center;
+  font-size: 14.1px;
+  font-weight: 700;
+  line-height: 164%;
 }
 
 .about {
@@ -1374,7 +1382,7 @@ ul.breadcrumb li a {
   }
   .mobile-menu-toggle {
     width: 80.9px;
-    height: 100%;
+    height: 68px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1385,7 +1393,7 @@ ul.breadcrumb li a {
     background-color: #333;
   }
   .mobile-menu-line {
-    height: 1.3px;
+    height: 1px;
     background-color: rgba(235, 235, 240, 0.8);
     width: 100%;
     transition: transform 0.2s;
@@ -1479,10 +1487,10 @@ ul.breadcrumb li a {
     display: none;
   }
   .close-menu .mobile-menu-line:nth-child(1) {
-    transform: rotate(45deg) translateY(9.2px);
+    transform: rotate(45deg) translateY(9.7px);
   }
   .close-menu .mobile-menu-line:nth-child(3) {
-    transform: rotate(-45deg) translateY(-9.2px);
+    transform: rotate(-45deg) translateY(-9.7px);
   }
   .steps-text {
     padding-right: 2.275rem;
@@ -1553,6 +1561,7 @@ ul.breadcrumb li a {
   }
   .header-features-item {
     min-height: 100%;
+    padding: 0.8125rem 2.125rem;
   }
   .card {
     flex-basis: 100%;
@@ -1777,6 +1786,10 @@ ul.breadcrumb li a {
     word-spacing: 0.6px;
     letter-spacing: 0.4px;
   }
+
+  .footer-author {
+    align-items: flex-start;
+  }
 }
 
 @media (max-width: 440px) {
@@ -1799,8 +1812,7 @@ ul.breadcrumb li a {
   .header-button {
     width: 28.8rem;
     height: 5.1rem;
-    letter-spacing: 1.5px;
-    word-spacing: -1px;
+    letter-spacing: 1px;
   }
   .header-features {
     margin-top: 4.25rem;
@@ -1808,7 +1820,7 @@ ul.breadcrumb li a {
   }
   .header-features-item {
     padding: 1.7rem 2.6rem 1.7rem 2.4rem;
-    min-width: 250.333px;
+    min-width: 244.133px;
     margin-right: -1px;
     margin-bottom: -1px;
   }

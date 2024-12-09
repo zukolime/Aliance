@@ -162,17 +162,17 @@
           <div class="footer-author">
             <span class="made-in">Сделано в</span>
             <span class="made-in mobile-made-in">Дизайн и разработка:</span>
-            <svg class="logo-ruso" width="52" height="11">
+            <svg class="logo-ruso">
               <use href="./img/sprite.svg#ruso"></use>
             </svg>
           </div>
         </div>
       </div>
     </footer>    
-        <div class="modal">
+        <div class="modal" id="feedback-modal">
           <div class="modal-dialog">
             <h2 class="modal-title">Есть вопросы?</h2>
-            <a href="#" class="modal-close" data-toggle="modal">
+            <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
               <svg class="close-icon" width="24" height="24">
                 <use href="./img/sprite.svg#close"></use>
               </svg>
@@ -186,7 +186,7 @@
               <div class="input-group-wrapper input-group-vertical">
                 <div class="input-group modal-input-group">
                   <input
-                    id="user-name"
+                    id="modal-user-name"
                     type="text"
                     class="input modal-input"
                     name="user_name"
@@ -237,11 +237,11 @@
           </div>
         </div>
         
-        <div class="modal modal-success">
+        <div class="modal" id="alert-modal">
           <div class="modal-dialog">
             <img class="image-success" src="./img/success.jpg" alt="success">
             <h2 class="modal-title modal-title-success">Спасибо за заявку!</h2>
-            <a href="#" class="modal-close" data-toggle="modal">
+            <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
               <svg class="close-icon" width="24" height="24">
                 <use href="./img/sprite.svg#close"></use>
               </svg>
