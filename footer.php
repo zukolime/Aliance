@@ -1,5 +1,5 @@
 <section class="cta">
-      <div class="bg-grey section-cta">
+      <div class="bg-grey section-cta <?= $cta_style;?>">
         <img src="./img/cta.png" alt="call to action" class="cta-image" />
         <div class="cta-form-wrapper container">
           <form action="handler.php" method="POST" class="cta-form">
@@ -157,7 +157,7 @@
             <p class="footer-copyright">
               &copy; <?php echo date('Y')?> «Aliance Production». Все права защищены.
             </p>
-            <a href="#" class="footer-policy">Политики конфиденциальности</a>
+            <a href="./politics.php" class="footer-policy">Политики конфиденциальности</a>
           </div>
           <div class="footer-author">
             <span class="made-in">Сделано в</span>

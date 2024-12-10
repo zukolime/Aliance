@@ -250,6 +250,17 @@ body {
   position: relative;
 }
 
+.header-features-gray {
+  display: flex;
+  min-height: 100%;
+  width: 90rem;
+  padding: 0;
+  margin-top: 6.25rem;
+  list-style: none;
+  color: #292d33;
+  position: relative;
+}
+
 .logo-features {
   width: 2.25rem;
   height: 2.25rem;
@@ -260,6 +271,13 @@ body {
   padding: 1.8125rem 3.125rem;
   width: 15rem;
   border: 0.0625rem solid rgba(235, 235, 240, 0.2);
+}
+
+.header-features-item-gray {
+  height: auto;
+  padding: 1.8125rem 3.125rem;
+  width: 15rem;
+  border: 0.0625rem solid rgba(235, 235, 240, 1);
 }
 
 .slider-buttons {
@@ -723,6 +741,10 @@ body {
   padding-bottom: 6.25rem;
 }
 
+.section-cta-none {
+  display: none;
+}
+
 .cta-image {
   position: absolute;
   bottom: 0;
@@ -1157,10 +1179,34 @@ body {
   height: 16.875rem;
 }
 
+.bg-image-ag {
+  background-color: #f0f2f5;
+  height: 16.875rem;
+  background-image: url("../img/img-back/car-chem.png");
+  background-repeat: no-repeat;
+  background-position: right 13.9375rem bottom;
+}
+
+.bg-image-blog {
+  height: 21.875rem;
+  background-image: url("../img/img-back/blog-more.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(41, 45, 51, 2);
+}
+
+.bg-image-blog .section-title,
+.bg-image-blog ul.breadcrumb li a,
+.bg-image-blog ul.breadcrumb li + li:before,
+.bg-image-blog ul.breadcrumb li {
+  color: rgba(255, 255, 255, 1);
+}
+
 .section-about {
   padding-top: 3.225rem;
   margin-top: 14.175rem;
   padding-bottom: 6.25rem;
+  margin-bottom: 6.25rem;
 }
 
 .title-about {
@@ -1546,6 +1592,9 @@ ul.breadcrumb li a {
   .footer-logo {
     width: 8.15rem;
     height: 2.95rem;
+  }
+  .bg-image-ag {
+    background-image: none;
   }
 }
 
