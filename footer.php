@@ -1,6 +1,10 @@
 <section class="cta">
       <div class="bg-grey section-cta <?= $cta_style;?>">
-        <img src="./img/cta.png" alt="call to action" class="cta-image" />
+        <picture>
+          <source type="image/webp" srcset="./img/cta.webp" class="cta-image">
+          <source type="image/jpeg" srcset="./img/cta.jpg" class="cta-image">
+          <img src="./img/cta.jpg" alt="cta" class="cta-image"/>
+        </picture>
         <div class="cta-form-wrapper container">
           <form action="handler.php" method="POST" class="cta-form">
             <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
@@ -78,11 +82,11 @@
             </a>
           </div>
           <div class="footer-social">
-            <a href="#" class="footer-social-link"
+            <a href="#" class="footer-social-link" aria-label="Ссылка на FaceBook"
               ><svg class="footer-social-icon" width="24" height="24">
                 <use href="./img/sprite.svg#vk"></use></svg
             ></a>
-            <a href="#" class="footer-social-link"
+            <a href="#" class="footer-social-link" aria-label="Ссылка на Instagram"
               ><svg class="footer-social-icon" width="24" height="24">
                 <use href="./img/sprite.svg#inst"></use></svg
             ></a>
@@ -239,7 +243,11 @@
         
         <div class="modal" id="alert-modal">
           <div class="modal-dialog">
-            <img class="image-success" src="./img/success.jpg" alt="success">
+            <picture>
+              <source type="image/webp" srcset="./img/success.webp"  class="image-success" loading="lazy">
+              <source type="image/jpeg" srcset="./img/success.jpg" class="image-success" loading="lazy">
+              <img src="./img/success.jpg" alt="success" class="image-success" loading="lazy" />
+            </picture>
             <h2 class="modal-title modal-title-success">Спасибо за заявку!</h2>
             <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
               <svg class="close-icon" width="24" height="24">

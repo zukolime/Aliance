@@ -18,11 +18,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="./img/avto-him.png"
-              alt="Автомобильная химия"
-              class="card-image"
-            />
+            <picture class="card-image">
+              <source type="image/webp" srcset="./img/avto-him.webp" class="card-image">
+              <source type="image/jpeg" srcset="./img/avto-him.jpg" class="card-image">
+              <img src="./img/avto-him.jpg" alt="avto-him" class="card-image"/>
+            </picture> 
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -33,25 +33,25 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="./img/byt-him.png"
-              alt="Бытовая химия"
-              class="card-image"
-            />
+            <picture class="card-image">
+              <source type="image/webp" srcset="./img/byt-him.webp" class="card-image">
+              <source type="image/jpeg" srcset="./img/byt-him.jpg" class="card-image">
+              <img src="./img/byt-him.jpg" alt="byt-him" class="card-image" />
+            </picture> 
           </a>
           <a href="#" class="card">
-            <div class="card-content sanitation">
+            <div class="card-content">
               <h3 class="card-title">Дезинфицирующие средства</h3>
               <p class="card-text">
                 Лишь интерактивные прототипы призваны к ответу.
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="./img/sanitation.png"
-              alt="Дезинфицирующие средства"
-              class="card-image sanitation-image"
-            />
+            <picture class="card-image">
+              <source type="image/webp" srcset="./img/sanitation.webp" class="card-image">
+              <source type="image/jpeg" srcset="./img/sanitation.jpg" class="card-image">
+              <img src="./img/sanitation.jpg" alt="sanitation" class="card-image" />
+            </picture> 
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -62,11 +62,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="./img/food.png"
-              alt="Пищевые аэрозоли"
-              class="card-image sanitation-image"
-            />
+            <picture class="card-image">
+              <source type="image/webp" srcset="./img/food.webp" class="card-image">
+              <source type="image/jpeg" srcset="./img/food.jpg" class="card-image">
+              <img src="./img/food.jpg" alt="food" class="card-image" />
+            </picture> 
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -76,11 +76,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="./img/cosmetic.png"
-              alt="Косметическая продукция"
-              class="card-image"
-            />
+           <picture class="card-image">
+              <source type="image/webp" srcset="./img/cosmetic.webp" class="card-image" loading="lazy">
+              <source type="image/jpeg" srcset="./img/cosmetic.jpg" class="card-image" loading="lazy">
+              <img src="./img/cosmetic.jpg" alt="cosmetic" class="card-image" loading="lazy"/>
+            </picture> 
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -91,11 +91,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="./img/colorants.png"
-              alt="Краски аэрозольные"
-              class="card-image"
-            />
+            <picture class="card-image">
+              <source type="image/webp" srcset="./img/colorants.webp" class="card-image">
+              <source type="image/jpeg" srcset="./img/colorants.jpg" class="card-image">
+              <img src="./img/colorants.jpg" alt="colorants" class="card-image" />
+            </picture> 
           </a>
         </div>
         <!-- /.cards -->

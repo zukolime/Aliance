@@ -96,13 +96,13 @@
     <!-- /.mobile-menu -->
     <nav class="navbar">
       <!-- /.mobile-menu-toggle -->
-      <a href="#" class="mobile-menu-toggle">
+      <a href="#" class="mobile-menu-toggle" aria-label="Меню">
         <div class="mobile-menu-line"></div>
         <div class="mobile-menu-line"></div>
         <div class="mobile-menu-line"></div>
       </a>
       <!-- /.mobile-menu-toggle -->
-      <a href="./" class="header-logo">
+      <a href="./" class="header-logo" aria-label="Логотип. Переход на главную страницу">
         <svg class="logo-svg logo-light">
           <use href="./img/sprite.svg#logo-light"></use>
         </svg>
@@ -136,7 +136,7 @@
         </a>
       </div>
       <!-- /.header-phone -->
-      <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
+      <button class="navbar-button button" aria-label="Name" data-toggle="modal" data-target="#feedback-modal">
         <svg class="button-icon" width="24" height="24">
           <use href="./img/sprite.svg#phone"></use>
         </svg>
@@ -187,11 +187,11 @@
           <div class="swiper-wrapper">
             <!-- Слайды Блога -->
             <a href="./blog-more.php" class="swiper-slide blog-card">
-              <img
-                src="/img/blog-photo-1.png"
-                alt="blog photo"
-                class="blog-card-image"
-              />
+              <picture class="blog-card-image">
+                <source type="image/webp" srcset="./img/blog-photo-1.webp" class="blog-card-image">
+                <source type="image/jpeg" srcset="./img/blog-photo-1.jpg" class="blog-card-image">
+                <img src="./img/blog-photo-1.jpg" alt="blog-photo-1" class="blog-card-image" />
+              </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
@@ -202,11 +202,11 @@
               </p>
             </a>
             <a href="./blog-more.php" class="swiper-slide blog-card">
-              <img
-                src="/img/blog-photo-2.png"
-                alt="blog photo"
-                class="blog-card-image"
-              />
+              <picture class="blog-card-image">
+                <source type="image/webp" srcset="./img/blog-photo-2.webp" class="blog-card-image">
+                <source type="image/jpeg" srcset="./img/blog-photo-2.jpg" class="blog-card-image">
+                <img src="./img/blog-photo-2.jpg" alt="blog-photo-2" class="blog-card-image" />
+              </picture>
               <h3 class="blog-card-title">
                 Сложно сказать, почему жизнь прекрасна
               </h3>
@@ -217,11 +217,11 @@
               </p>
             </a>
             <a href="./blog-more.php" class="swiper-slide blog-card">
-              <img
-                src="/img/blog-photo-1.png"
-                alt="blog photo"
-                class="blog-card-image"
-              />
+              <picture class="blog-card-image">
+                <source type="image/webp" srcset="./img/blog-photo-1.webp" class="blog-card-image">
+                <source type="image/jpeg" srcset="./img/blog-photo-1.jpg" class="blog-card-image">
+                <img src="./img/blog-photo-1.jpg" alt="blog-photo-1" class="blog-card-image" />
+              </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
