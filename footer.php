@@ -1,9 +1,9 @@
 <section class="cta">
       <div class="bg-grey section-cta <?= $cta_style;?>">
         <picture>
-          <source type="image/webp" srcset="./img/cta.webp" class="cta-image">
-          <source type="image/jpeg" srcset="./img/cta.jpg" class="cta-image">
-          <img src="./img/cta.jpg" alt="cta" class="cta-image"/>
+          <source type="image/webp" srcset="./img/cta.webp" class="cta-image" loading="lazy">
+          <source type="image/jpeg" srcset="./img/cta.jpg" class="cta-image" loading="lazy">
+          <img src="./img/cta.jpg" alt="cta" class="cta-image" loading="lazy"/>
         </picture>
         <div class="cta-form-wrapper container">
           <form action="handler.php" method="POST" class="cta-form">

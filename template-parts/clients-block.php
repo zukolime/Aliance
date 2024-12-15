@@ -74,73 +74,73 @@
             <a href="#" class="clients-logo-item"
               >
               <picture class="clients-logo">
-                <source type="image/webp" srcset="./img/client.webp">
-                <source type="image/jpeg" srcset="./img/client.jpg">
-                <img src="./img/client.jpg" alt="client" />
+                <source type="image/webp" srcset="./img/client.webp" loading="lazy">
+                <source type="image/jpeg" srcset="./img/client.jpg" loading="lazy">
+                <img src="./img/client.jpg" alt="client" loading="lazy"/>
               </picture>
           </a>
             <a href="#" class="clients-logo-item"
               >
               <picture class="clients-logo">
-                <source type="image/webp" srcset="./img/client.webp">
-                <source type="image/jpeg" srcset="./img/client.jpg">
-                <img src="./img/client.jpg" alt="client" />
+                <source type="image/webp" srcset="./img/client.webp" loading="lazy">
+                <source type="image/jpeg" srcset="./img/client.jpg" loading="lazy">
+                <img src="./img/client.jpg" alt="client" loading="lazy" />
               </picture> 
           </a>
             <a href="#" class="clients-logo-item"
               >
               <picture class="clients-logo">
-                <source type="image/webp" srcset="./img/client.webp">
-                <source type="image/jpeg" srcset="./img/client.jpg">
-                <img src="./img/client.jpg" alt="client" />
+                <source type="image/webp" srcset="./img/client.webp" loading="lazy">
+                <source type="image/jpeg" srcset="./img/client.jpg" loading="lazy">
+                <img src="./img/client.jpg" alt="client" loading="lazy" />
               </picture> 
           </a>
             <a href="#" class="clients-logo-item"
               >
               <picture class="clients-logo">
-                <source type="image/webp" srcset="./img/client.webp">
-                <source type="image/jpeg" srcset="./img/client.jpg">
-                <img src="./img/client.jpg" alt="client" />
+                <source type="image/webp" srcset="./img/client.webp" loading="lazy">
+                <source type="image/jpeg" srcset="./img/client.jpg" loading="lazy">
+                <img src="./img/client.jpg" alt="client" loading="lazy" />
               </picture> 
           </a>
             <a href="#" class="clients-logo-item"
               >
               <picture class="clients-logo">
-                <source type="image/webp" srcset="./img/client.webp">
-                <source type="image/jpeg" srcset="./img/client.jpg">
-                <img src="./img/client.jpg" alt="client" />
+                <source type="image/webp" srcset="./img/client.webp" loading="lazy">
+                <source type="image/jpeg" srcset="./img/client.jpg" loading="lazy">
+                <img src="./img/client.jpg" alt="client" loading="lazy" />
               </picture>
           </a>
             <a href="#" class="clients-logo-item"
               >
               <picture class="clients-logo">
-                <source type="image/webp" srcset="./img/client.webp">
-                <source type="image/jpeg" srcset="./img/client.jpg">
-                <img src="./img/client.jpg" alt="client" />
+                <source type="image/webp" srcset="./img/client.webp" loading="lazy">
+                <source type="image/jpeg" srcset="./img/client.jpg" loading="lazy">
+                <img src="./img/client.jpg" alt="client" loading="lazy" />
               </picture> 
           </a>
             <a href="#" class="clients-logo-item"
               >
               <picture class="clients-logo">
-                <source type="image/webp" srcset="./img/client.webp">
-                <source type="image/jpeg" srcset="./img/client.jpg">
-                <img src="./img/client.jpg" alt="client" />
+                <source type="image/webp" srcset="./img/client.webp" loading="lazy">
+                <source type="image/jpeg" srcset="./img/client.jpg" loading="lazy">
+                <img src="./img/client.jpg" alt="client" loading="lazy" />
               </picture> 
           </a>
             <a href="#" class="clients-logo-item"
               >
               <picture class="clients-logo">
-                <source type="image/webp" srcset="./img/client.webp">
-                <source type="image/jpeg" srcset="./img/client.jpg">
-                <img src="./img/client.jpg" alt="client" />
+                <source type="image/webp" srcset="./img/client.webp" loading="lazy">
+                <source type="image/jpeg" srcset="./img/client.jpg" loading="lazy">
+                <img src="./img/client.jpg" alt="client" loading="lazy" />
               </picture> 
           </a>
             <a href="#" class="clients-logo-item"
               >
               <picture class="clients-logo">
-                <source type="image/webp" srcset="./img/client.webp">
-                <source type="image/jpeg" srcset="./img/client.jpg">
-                <img src="./img/client.jpg" alt="client" />
+                <source type="image/webp" srcset="./img/client.webp" loading="lazy">
+                <source type="image/jpeg" srcset="./img/client.jpg" loading="lazy">
+                <img src="./img/client.jpg" alt="client" loading="lazy" />
               </picture> 
           </a>
           </div>

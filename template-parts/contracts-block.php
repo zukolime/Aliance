@@ -92,9 +92,9 @@
             </div>
             <!-- /.card-content -->
             <picture class="card-image">
-              <source type="image/webp" srcset="./img/colorants.webp" class="card-image">
-              <source type="image/jpeg" srcset="./img/colorants.jpg" class="card-image">
-              <img src="./img/colorants.jpg" alt="colorants" class="card-image" />
+              <source type="image/webp" srcset="./img/colorants.webp" class="card-image" loading="lazy">
+              <source type="image/jpeg" srcset="./img/colorants.jpg" class="card-image" loading="lazy">
+              <img src="./img/colorants.jpg" alt="colorants" class="card-image" loading="lazy" />
             </picture> 
           </a>
         </div>
