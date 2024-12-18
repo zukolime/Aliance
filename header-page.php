@@ -151,7 +151,7 @@
               <div class="seporator"></div>
               <h2 class="section-title title-about"><?= $page_title ?></h2>
               <ul class="breadcrumb">
-                <li><a href="#">Главная</a></li>
+                <li><a href="./index.php">Главная</a></li>
                 <li class="active"><?= $page_title ?></li>
               </ul>
             </div>

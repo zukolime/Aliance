@@ -281,3 +281,17 @@ document.addEventListener("input", (e) => {
     input.value = result;
   }
 });
+
+var destroy = $readMoreJS({
+  target: "#shortText",
+  charactersCount: 462,
+  toggle: true,
+  moreLink: `<button id="expandButton" class="section-seo--button">
+        <svg class="section-seo--link-icon" width="24" height="24">
+          <use href="./img/sprite.svg#load"></use>
+        </svg>Читать больше</button>`,
+  lessLink: `<button id="collapseButton" class="section-seo--button">Свернуть</button>`,
+  linkClass: "rm-link-classname",
+});
+
+// Bring back to initial state if no longer needed.
