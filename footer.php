@@ -1,6 +1,6 @@
 <section class="cta">
       <div class="bg-grey section-cta <?= $cta_style;?>">
-        <picture>
+        <picture class="cta-image">
           <source type="image/webp" srcset="./img/cta.webp" class="cta-image" loading="lazy">
           <source type="image/jpeg" srcset="./img/cta.jpg" class="cta-image" loading="lazy">
           <img src="./img/cta.jpg" alt="cta" class="cta-image" loading="lazy"/>

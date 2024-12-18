@@ -111,6 +111,18 @@ const swiperBlog = new Swiper(".blog-slider", {
   },
 });
 
+const swiperPictures = new Swiper(".picture-slider", {
+  speed: 400,
+  slidesPerView: 2.5,
+  loop: true,
+  spaceBetween: 30,
+  slidesOffsetBefore: -495,
+  navigation: {
+    nextEl: ".picture-slider--button-next",
+    prevEl: ".picture-slider--button-prev",
+  },
+});
+
 let currentModal;
 let modalDialog;
 let alertModal = document.querySelector("#alert-modal");

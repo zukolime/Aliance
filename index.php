@@ -228,7 +228,7 @@
             </a>
           </div>
           <!-- кнопки слайдера для Блога -->
-          <div class="blog-slider-footer">
+          <div class="slider-footer">
             <a href="./blog.php" class="button-link">Весь блог</a>
             <div class="blog-buttons primary-buttons-wrapper">
               <div class="blog-button-prev primary-button-prev">
