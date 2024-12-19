@@ -667,8 +667,6 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  max-width: 45rem;
-  width: 50%;
 }
 .cta-form-wrapper {
   display: flex;
@@ -1080,22 +1078,19 @@ ul.breadcrumb li {
   font-weight: 400;
   line-height: 160%;
 }
+
 ul.breadcrumb li + li:before {
-  content: "— ";
+  content: " — ";
   color: #828a99;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
-  margin-left: -0.8rem;
-  margin-right: 0.4rem;
+  margin: 0;
 }
 ul.breadcrumb li a {
   color: #828a99;
   text-decoration: none;
-}
-.active {
-  padding-left: 1.3rem;
 }
 
 .wrapper__experts {
@@ -1228,6 +1223,126 @@ ul.breadcrumb li a {
 
 .rm-link-classname {
   text-decoration: none;
+}
+
+.section-contracts__wrapper {
+  display: flex;
+  gap: 7.5rem;
+  margin-top: 6.25rem;
+}
+
+.section-contracts--description {
+  color: #828a99;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.section--autochem-prod {
+  min-height: 41.25rem;
+}
+
+.section--autochem-prod {
+  position: relative;
+}
+
+.autochem-prod__wrapper {
+  max-width: 45rem;
+}
+
+.autochem-prod--description {
+  color: #828a99;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.image--autochem-prod {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 52.5rem;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.autochem-types--description {
+  max-width: 52.5rem;
+  color: #828a99;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.types__wrapper {
+  list-style: none;
+  padding: 0;
+  gap: 3.5rem;
+  columns: 4 19rem;
+  margin-top: 3.125rem;
+}
+
+.types__wrapper--item {
+  color: #292d33;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  padding-bottom: 1.25rem;
+  padding-left: 2.75rem;
+  background-image: url(../img/dash.svg);
+  background-position: 0 0.65rem;
+  background-size: 1rem;
+  background-repeat: no-repeat;
+}
+
+.section-blog {
+  margin-top: 6.25rem;
+}
+
+.blog__wrapper {
+  columns: 2 auto;
+  gap: 1.875rem;
+}
+
+.section-blog-card {
+  margin: 0;
+  margin-bottom: 1.875rem;
+}
+
+.blog-section__footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.blog-section__pager {
+  display: inline-flex;
+  list-style: none;
+  align-items: center;
+}
+
+.blog-section__pager--item {
+  padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+}
+
+.active-page {
+  color: #5c8ee5;
+  border: 1px solid #5c8ee5;
+}
+
+.blog-section__pager--item a {
+  text-decoration: none;
+  color: #292d33;
+}
+
+.section-politics {
+  margin-top: 6.25rem;
+}
+
+.section-politics--description {
+  color: var(--txt, #292d33);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
 }
 
 @media (max-width: 1700px) {

@@ -293,5 +293,3 @@ var destroy = $readMoreJS({
   lessLink: `<button id="collapseButton" class="section-seo--button">Свернуть</button>`,
   linkClass: "rm-link-classname",
 });
-
-// Bring back to initial state if no longer needed.

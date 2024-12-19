@@ -14,7 +14,7 @@ include_once('header-page.php')?>
     </div>
   </div>
 </section>
-<script src="./js/read-more.min.js"></script>
+
 <?php include_once('footer.php')?>
 
 
