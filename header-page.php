@@ -15,6 +15,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="./favicon.ico/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon.ico/favicon-16x16.png">
     <link rel="manifest" href="./favicon.ico/manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">        
@@ -35,7 +36,7 @@
               <a href="./contracts.php" class="mobile-menu-link">Контрактное производство</a>
               <ul class="mobile-submenu">
                 <li class="mobile-submenu-item">
-                  <a class="mobile-submenu-link" href="#"
+                  <a class="mobile-submenu-link" href="./car-chem.php"
                     >Автомобильная химия</a
                   >
                 </li>

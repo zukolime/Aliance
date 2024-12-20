@@ -1,7 +1,6 @@
 <?php 
 $page_title = 'Политика конфиденциальности'; 
 $header_style = 'bg';
-$cta_style = 'section-cta-none';
 include_once('header-page.php')?>
 
 <section class="section section-politics">
@@ -26,5 +25,7 @@ include_once('header-page.php')?>
   </div>
 </section>
 
-<?php include_once('footer.php')?>
+<?php 
+$cta_style = 'section-cta-none';
+include_once('footer.php')?>
 
