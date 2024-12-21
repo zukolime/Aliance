@@ -9,9 +9,9 @@ include_once('header-page.php')?>
   <div class="container">
     <div class="wrapper__experts">
       <picture class="wrapper__experts--img">
-          <source type="image/webp" srcset="./img/logo-about.webp">
-          <source type="image/jpeg" srcset="./img/logo-about.jpg">
-          <img src="./img/logo-about.png" alt="logo-about">
+          <source type="image/webp" srcset="./img/logo-about.webp" class="wrapper__experts--picture">
+          <source type="image/jpeg" srcset="./img/logo-about.jpg" class="wrapper__experts--picture">
+          <img src="./img/logo-about.png" alt="logo-about" class="wrapper__experts--picture">
       </picture>
 
       <div class="wrapper__experts--content">
@@ -23,13 +23,20 @@ include_once('header-page.php')?>
           Разнообразный и богатый опыт говорит нам, что перспективное планирование однозначно фиксирует необходимость поставленных обществом задач! Есть над чем задуматься: ключевые особенности структуры проекта могут быть объединены в целые кластеры себе подобных. Интерактивные прототипы, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут описаны максимально подробно. Значимость этих проблем настолько очевидна, что перспективное планирование играет важную роль в формировании системы массового участия.</p>
       </div>
     </div>
-    <?php include_once('./template-parts/features.php')?>
+    <?php 
+    $header_features_style = 'header-features-gray';
+    $header_features_item = 'header-features-item-gray';
+    $features_prev_gray = 'slider-button-prev-gray';
+    $features_next_gray = 'slider-button-next-gray';
+    $features_arrowprev_gray = 'arrow-prev-gray';
+    $features_arrownext_gray = 'arrow-next-gray';    
+    include_once('./template-parts/features.php')?>
   </div>
 </section>
 
 <section class="section section__our-production">
   <div class="container">
-    <div class="wrapper__our-production">  
+    <div class="wrapper__our-production">
       <div class="wrapper__our-production--content">
         <div class="seporator"></div>
         <h2 class="section-title">
@@ -79,11 +86,11 @@ include_once('header-page.php')?>
           </li>      
         </ul>
       </div>
-
+      
         <picture class="wrapper__personal-photo">
-            <source type="image/webp" srcset="./img/personal.webp">
-            <source type="image/jpeg" srcset="./img/personal.jpg">
-            <img src="./img/personal.png" alt="logo-about">
+            <source type="image/webp" srcset="./img/personal.webp" class="personal-picture"> 
+            <source type="image/jpeg" srcset="./img/personal.jpg" class="personal-picture">
+            <img src="./img/personal.png" alt="logo-about" class="personal-picture">
         </picture>
     </div>
   </div>

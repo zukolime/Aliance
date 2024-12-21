@@ -42,12 +42,12 @@
           <div class="slider-buttons">
             <div class="slider-button-prev <?= $features_prev_gray;?>">
               <svg width="36" height="24"  >
-                <use class="<?= $features_arrowprev_gray;?>" href="./img/sprite.svg#arrow-prev"></use>
+                <use class="arrow-prev <?= $features_arrowprev_gray;?>" href="./img/sprite.svg#arrow-prev"></use>
               </svg>
             </div>
             <div class="slider-button-next <?= $features_next_gray;?>">
               <svg width="36" height="24">
-                <use class="<?= $features_arrownext_gray;?>" href="./img/sprite.svg#arrow-next"></use>
+                <use class="arrow-next <?= $features_arrownext_gray;?>" href="./img/sprite.svg#arrow-next"></use>
               </svg>
             </div>
           </div>

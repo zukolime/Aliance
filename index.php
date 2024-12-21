@@ -249,12 +249,12 @@
             <div class="blog-buttons primary-buttons-wrapper">
               <div class="blog-button-prev primary-button-prev">
                 <svg width="36" height="24">
-                  <use href="./img/sprite.svg#arrow-prev"></use>
+                  <use class="arrow-next" href="./img/sprite.svg#arrow-prev"></use>
                 </svg>
               </div>
               <div class="blog-button-next primary-button-next">
                 <svg width="36" height="24">
-                  <use href="./img/sprite.svg#arrow-next"></use>
+                  <use class="arrow-next" href="./img/sprite.svg#arrow-next"></use>
                 </svg>
               </div>
             </div>
