@@ -160,12 +160,13 @@
 
         <section class="section section-contracts">
           <div class="container">
-            <div class="section-contracts__wrapper">
-              <picture class="image-contracts" >
-                <source type="image/webp" srcset="./img/contracts.webp">
-                <source type="image/jpeg" srcset="./img/contracts.jpg">
-                <img src="./img/contracts.jpg" alt="contracts"/>
-              </picture>
+            <div class="section-contracts__wrapper">              
+                <picture class="image-contracts" >
+                  <source type="image/webp" srcset="./img/contracts.webp"  class="img-contracts">
+                  <source type="image/jpeg" srcset="./img/contracts.jpg"  class="img-contracts">
+                  <img src="./img/contracts.jpg" alt="contracts" class="img-contracts"/>
+                </picture>
+              
             <div class="section-contracts__content">
               <div class="seporator"></div>
               <h2 class="section-title section-contracts--title">
@@ -180,6 +181,11 @@
             <?php
             $header_features_style = 'header-features-gray';
             $header_features_item = 'header-features-item-gray';
+            $features_prev_gray = 'slider-button-prev-gray';
+            $features_next_gray = 'slider-button-next-gray';
+            $features_arrowprev_gray = 'arrow-prev-gray';
+            $features_arrownext_gray = 'arrow-next-gray';
+            
             include_once('./template-parts/features.php')?>
           </div>
         </section>
@@ -192,7 +198,7 @@
               <p class="autochem-prod--description">
                 Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.
               </p>
-              <ul class="clients-list">
+              <ul class="clients-list autochem-prod__list">
                 <li class="clients-list-item">
                   <svg width="30" height="30" class="clients-list-icon">
                     <use href="./img/sprite.svg#him"></use>
@@ -245,9 +251,9 @@
             </div>
           </div>
             <picture class="image--autochem-prod" >
-              <source type="image/webp" srcset="./img/autochem_prod.webp">
-              <source type="image/jpeg" srcset="./img/autochem_prod.jpg">
-              <img src="./img/autochem_prod.jpg" alt="autochem_prod" />
+              <source type="image/webp" srcset="./img/autochem_prod.webp" class="image--autochem-prod">
+              <source type="image/jpeg" srcset="./img/autochem_prod.jpg" class="image--autochem-prod">
+              <img src="./img/autochem_prod.jpg" alt="autochem_prod" class="image--autochem-prod" />
             </picture>
         </section>
 

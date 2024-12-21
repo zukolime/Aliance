@@ -113,13 +113,26 @@ const swiperBlog = new Swiper(".blog-slider", {
 
 const swiperPictures = new Swiper(".picture-slider", {
   speed: 400,
-  slidesPerView: 2.5,
+  slidesPerView: 1,
   loop: true,
   spaceBetween: 30,
   slidesOffsetBefore: -495,
   navigation: {
     nextEl: ".picture-slider--button-next",
     prevEl: ".picture-slider--button-prev",
+  },
+  breakpoints: {
+    // when window width is >= 852px
+    852: {
+      slidesPerView: 2.5,
+      slidesOffsetBefore: -495,
+    },
+    400: {
+      slidesOffsetBefore: 0,
+    },
+    320: {
+      slidesOffsetBefore: 0,
+    },
   },
 });
 

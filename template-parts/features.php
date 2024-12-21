@@ -40,14 +40,14 @@
 
           <!-- кнопки навигации вперед/назад -->
           <div class="slider-buttons">
-            <div class="slider-button-prev">
-              <svg width="36" height="24">
-                <use href="./img/sprite.svg#arrow-prev"></use>
+            <div class="slider-button-prev <?= $features_prev_gray;?>">
+              <svg width="36" height="24"  >
+                <use class="<?= $features_arrowprev_gray;?>" href="./img/sprite.svg#arrow-prev"></use>
               </svg>
             </div>
-            <div class="slider-button-next">
+            <div class="slider-button-next <?= $features_next_gray;?>">
               <svg width="36" height="24">
-                <use href="./img/sprite.svg#arrow-next"></use>
+                <use class="<?= $features_arrownext_gray;?>" href="./img/sprite.svg#arrow-next"></use>
               </svg>
             </div>
           </div>
