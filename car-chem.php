@@ -199,49 +199,49 @@
                 Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.
               </p>
               <ul class="clients-list autochem-prod__list">
-                <li class="clients-list-item">
+                <li class="clients-list-item autochem-prod__item">
                   <svg width="30" height="30" class="clients-list-icon">
                     <use href="./img/sprite.svg#him"></use>
                   </svg>
                   Полное описание товаров
                 </li>
-                <li class="clients-list-item">
+                <li class="clients-list-item autochem-prod__item">
                   <svg width="30" height="30" class="clients-list-icon">
                     <use href="./img/sprite.svg#car"></use>
                   </svg>
                   Актуальные цены
                 </li>
-                <li class="clients-list-item">
+                <li class="clients-list-item autochem-prod__item">
                   <svg width="30" height="30" class="clients-list-icon">
                     <use href="./img/sprite.svg#him"></use>
                   </svg>
                   Полное описание товаров
-                </li>
-                <li class="clients-list-item">
+                </li> 
+                <li class="clients-list-item autochem-prod__item">
                   <svg width="30" height="30" class="clients-list-icon">
                     <use href="./img/sprite.svg#car"></use>
                   </svg>
                   Актуальные цены
                 </li>
-                <li class="clients-list-item">
+                <li class="clients-list-item autochem-prod__item">
                   <svg width="30" height="30" class="clients-list-icon">
                     <use href="./img/sprite.svg#brush"></use>
                   </svg>
                   Лаки и краски
                 </li>
-                <li class="clients-list-item">
+                <li class="clients-list-item autochem-prod__item">
                   <svg width="30" height="30" class="clients-list-icon">
                     <use href="./img/sprite.svg#him"></use>
                   </svg>
                   Химические производства
                 </li>
-                <li class="clients-list-item">
+                <li class="clients-list-item autochem-prod__item">
                   <svg width="30" height="30" class="clients-list-icon">
                     <use href="./img/sprite.svg#brush"></use>
                   </svg>
                   Лаки и краски
                 </li>
-                <li class="clients-list-item">
+                <li class="clients-list-item autochem-prod__item">
                   <svg width="30" height="30" class="clients-list-icon">
                     <use href="./img/sprite.svg#him"></use>
                   </svg>
@@ -291,5 +291,6 @@
 
 <?php include_once('./template-parts/research-centre-block.php')?>
 <?php include_once('./template-parts/steps-block.php')?>
+<div class="space"></div>
 <?php include_once('./template-parts/clients-block.php')?>
 <?php include_once('footer.php')?>

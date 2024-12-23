@@ -168,9 +168,8 @@
             будущего проекта напрямую зависит от анализа существующих паттернов
             поведения.
           </p>
-          <div class="button header-button" data-toggle="modal" data-target="#feedback-modal">
-            Подробнее о компании
-          </div>
+          <a href="./about.php" class="button header-button" >
+            Подробнее о компании</a>
         </div>
         <!-- /.header-content -->
 
@@ -199,9 +198,9 @@
             <!-- Слайды Блога -->
             <a href="./blog-more.php" class="swiper-slide blog-card">
               <picture class="blog-card-image">
-                <source type="image/webp" srcset="./img/small/blog-photo-1.webp" class="blog-card-image" loading="lazy">
-                <source type="image/jpeg" srcset="./img/small/blog-photo-1.jpg" class="blog-card-image" loading="lazy">
-                <img src="./img/small/blog-photo-1.jpg" alt="blog-photo-1" class="blog-card-image" loading="lazy" />
+                <source type="image/webp" srcset="./img/small/blog-photo-1.webp" class="blog-card-image">
+                <source type="image/jpeg" srcset="./img/small/blog-photo-1.jpg" class="blog-card-image">
+                <img src="./img/small/blog-photo-1.jpg" alt="blog-photo-1" class="blog-card-image"/>
               </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
@@ -214,9 +213,9 @@
             </a>
             <a href="./blog-more.php" class="swiper-slide blog-card">
               <picture class="blog-card-image">
-                <source type="image/webp" srcset="./img/blog-photo-2.webp" class="blog-card-image" loading="lazy">
-                <source type="image/jpeg" srcset="./img/blog-photo-2.jpg" class="blog-card-image" loading="lazy">
-                <img src="./img/blog-photo-2.jpg" alt="blog-photo-2" class="blog-card-image" loading="lazy" />
+                <source type="image/webp" srcset="./img/blog-photo-2.webp" class="blog-card-image">
+                <source type="image/jpeg" srcset="./img/blog-photo-2.jpg" class="blog-card-image">
+                <img src="./img/blog-photo-2.jpg" alt="blog-photo-2" class="blog-card-image">
               </picture>
               <h3 class="blog-card-title">
                 Сложно сказать, почему жизнь прекрасна
@@ -229,9 +228,9 @@
             </a>
             <a href="./blog-more.php" class="swiper-slide blog-card">
               <picture class="blog-card-image">
-                <source type="image/webp" srcset="./img/blog-photo-1.webp" class="blog-card-image" loading="lazy">
-                <source type="image/jpeg" srcset="./img/blog-photo-1.jpg" class="blog-card-image" loading="lazy">
-                <img src="./img/blog-photo-1.jpg" alt="blog-photo-1" class="blog-card-image" loading="lazy" />
+                <source type="image/webp" srcset="./img/blog-photo-1.webp" class="blog-card-image">
+                <source type="image/jpeg" srcset="./img/blog-photo-1.jpg" class="blog-card-image">
+                <img src="./img/blog-photo-1.jpg" alt="blog-photo-1" class="blog-card-image">
               </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных

@@ -39,7 +39,7 @@ include_once('header-page.php')?>
     <div class="wrapper__our-production">
       <div class="wrapper__our-production--content">
         <div class="seporator"></div>
-        <h2 class="section-title">
+        <h2 class="section-title our-production--title">
           Наше производство
         </h2>
         <p class="wrapper__our-production--description">
@@ -93,6 +93,66 @@ include_once('header-page.php')?>
             <img src="./img/personal.png" alt="logo-about" class="personal-picture">
         </picture>
     </div>
+
+    <div class="wrapper__our-production-mobile">
+      <div class="wrapper__our-production--content">
+        <div class="seporator"></div>
+        <h2 class="section-title our-production--title">
+          Наше производство
+        </h2>
+        <picture class="wrapper__personal-photo">
+            <source type="image/webp" srcset="./img/personal.webp" class="personal-picture"> 
+            <source type="image/jpeg" srcset="./img/personal.jpg" class="personal-picture">
+            <img src="./img/personal.png" alt="logo-about" class="personal-picture">
+        </picture>
+        <p class="wrapper__our-production--description">
+          Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.</p>
+        <p class="wrapper__our-production--description">
+          Реализация намеченных плановых заданий, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для соответствующих условий активизации. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня требует анализа анализа существующих паттернов поведения.</p>
+
+        <ul class="wrapper__our-production--list">
+          <li class="wrapper__our-production--item">
+            <svg class="wrapper__our-production--icon" width="30" height="30">
+              <use href="./img/sprite.svg#car"></use>
+            </svg>
+          Автомобильная химия
+          </li>
+          <li class="wrapper__our-production--item">
+            <svg class="wrapper__our-production--icon" width="30" height="30">
+              <use href="./img/sprite.svg#home"></use>
+            </svg>
+          Бытовая химия
+          </li>
+          <li class="wrapper__our-production--item">
+            <svg class="wrapper__our-production--icon" width="30" height="30">
+              <use href="./img/sprite.svg#disinfection"></use>
+            </svg>
+          Дезинфицирующие средства
+          </li>
+          <li class="wrapper__our-production--item">
+            <svg class="wrapper__our-production--icon" width="30" height="30">
+              <use href="./img/sprite.svg#aerozol"></use>
+            </svg>
+          Пищевые аэрозоли
+          </li>
+          <li class="wrapper__our-production--item">
+            <svg class="wrapper__our-production--icon" width="30" height="30">
+              <use href="./img/sprite.svg#cosmetic"></use>
+            </svg>
+          Косметическая продукция
+          </li>
+          <li class="wrapper__our-production--item">
+            <svg class="wrapper__our-production--icon" width="30" height="30">
+              <use href="./img/sprite.svg#brush"></use>
+            </svg>
+          Краски аэрозольные
+          </li>      
+        </ul>
+      </div>
+      
+        
+    </div>
+
   </div>
 </section> 
 
@@ -101,4 +161,7 @@ include_once('header-page.php')?>
 <?php include_once('./template-parts/research-centre-block.php')?>
 
 <?php include_once('./template-parts/clients-block.php')?>
+
+<div class="space-about"></div>
+
 <?php include_once('footer.php')?>

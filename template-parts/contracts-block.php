@@ -14,7 +14,7 @@
               <h3 class="card-title">Автомобильная химия</h3>
               <p class="card-text">
                 Безусловно, сплочённость команды профессионалов позволяет
-                оценить значение форм воздействия.
+                оценить значение форм воздействия. 
               </p>
             </div>
             <!-- /.card-content -->
@@ -77,9 +77,9 @@
             </div>
             <!-- /.card-content -->
            <picture class="card-image">
-              <source type="image/webp" srcset="./img/cosmetic.webp" class="card-image" loading="lazy">
-              <source type="image/jpeg" srcset="./img/cosmetic.jpg" class="card-image" loading="lazy">
-              <img src="./img/cosmetic.jpg" alt="cosmetic" class="card-image" loading="lazy"/>
+              <source type="image/webp" srcset="./img/cosmetic.webp" class="card-image" >
+              <source type="image/jpeg" srcset="./img/cosmetic.jpg" class="card-image" >
+              <img src="./img/cosmetic.jpg" alt="cosmetic" class="card-image" />
             </picture> 
           </a>
           <a href="#" class="card">
@@ -92,9 +92,9 @@
             </div>
             <!-- /.card-content -->
             <picture class="card-image">
-              <source type="image/webp" srcset="./img/colorants.webp" class="card-image" loading="lazy">
-              <source type="image/jpeg" srcset="./img/colorants.jpg" class="card-image" loading="lazy">
-              <img src="./img/colorants.jpg" alt="colorants" class="card-image" loading="lazy" />
+              <source type="image/webp" srcset="./img/colorants.webp" class="card-image" >
+              <source type="image/jpeg" srcset="./img/colorants.jpg" class="card-image" >
+              <img src="./img/colorants.jpg" alt="colorants" class="card-image"  />
             </picture> 
           </a>
         </div>

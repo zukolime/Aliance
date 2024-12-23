@@ -59,14 +59,20 @@ const swiper = new Swiper(".features-slider", {
     // when window width is >= 768px
     768: {
       slidesPerView: 3,
+      centeredSlides: false,
+      slidesOffsetBefore: 0,
     },
     // when window width is >= 1024px
     1024: {
       slidesPerView: 4,
+      centeredSlides: false,
+      slidesOffsetBefore: 0,
     },
     // when window width is >= 1200px
     1200: {
       slidesPerView: 5,
+      centeredSlides: false,
+      slidesOffsetBefore: 0,
     },
   },
 });
@@ -113,9 +119,9 @@ const swiperBlog = new Swiper(".blog-slider", {
 
 const swiperPictures = new Swiper(".picture-slider", {
   speed: 400,
-  slidesPerView: 1,
+  slidesPerView: 1.1,
   loop: true,
-  spaceBetween: 30,
+  spaceBetween: 15,
   slidesOffsetBefore: -495,
   navigation: {
     nextEl: ".picture-slider--button-next",

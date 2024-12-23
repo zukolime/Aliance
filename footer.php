@@ -244,9 +244,9 @@
         <div class="modal" id="alert-modal">
           <div class="modal-dialog">
             <picture>
-              <source type="image/webp" srcset="./img/success.webp"  class="image-success" loading="lazy">
-              <source type="image/jpeg" srcset="./img/success.jpg" class="image-success" loading="lazy">
-              <img src="./img/success.jpg" alt="success" class="image-success" loading="lazy" />
+              <source type="image/webp" srcset="./img/success.webp"  class="image-success">
+              <source type="image/jpeg" srcset="./img/success.jpg" class="image-success">
+              <img src="./img/success.jpg" alt="success" class="image-success">
             </picture>
             <h2 class="modal-title modal-title-success">Спасибо за заявку!</h2>
             <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
