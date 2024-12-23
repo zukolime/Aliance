@@ -3,7 +3,7 @@
          <?php 
         if (!empty($block_title)) {
           echo '<div class="seporator"></div>';
-          echo '<h2 class="section-title trademark-section-title">'
+          echo '<h2 class="section-title">'
           . $block_title .
         '</h2>';
         }

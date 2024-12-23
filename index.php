@@ -160,7 +160,7 @@
         <div class="header-content">
           <div class="seporator"></div>
           <h1 class="header-title">
-            Комплексное обеспечение товарами и расходными материалами бизнеса
+            Комплексное обеспечение товарами<br>и расходными материалами бизнеса
           </h1>
           <p class="header-text">
             Высокий уровень вовлечения представителей целевой аудитории является
@@ -245,7 +245,7 @@
           </div>
           <!-- кнопки слайдера для Блога -->
           <div class="slider-footer">
-            <a href="./blog.php" class="button-link">Весь блог</a>
+            <a href="./blog.php" class="button-link blog-link-footer">Весь блог</a>
             <div class="blog-buttons primary-buttons-wrapper">
               <div class="blog-button-prev primary-button-prev">
                 <svg width="36" height="24">
