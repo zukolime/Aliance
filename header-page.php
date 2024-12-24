@@ -162,10 +162,10 @@
         <!-- /.navbar -->
 
         <section class="about">
-          <div class="section-about <?= $header_style;?>">
+          <div class="section-about <?= $header_style;?> <?= $bg_style;?>">
             <div class="container">
               <div class="seporator"></div>
-              <h2 class="section-title title-about"><?= $page_title ?></h2>
+              <h2 class="section-title title-about <?= $title_style;?>"><?= $page_title ?></h2>
               <ul class="breadcrumb">
                 <li><a href="./index.php">Главная</a></li>
                 <li class="active"><?= $page_title ?></li>

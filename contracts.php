@@ -1,7 +1,9 @@
 <?php 
 $page_title = 'Контрактное производство'; 
 $header_style = 'bg';
+$bg_style = 'bg-height-trademarks';
 include_once('header-page.php')?>
+<div class="space-contracts"></div>
 <?php include_once('./template-parts/contracts-block.php')?>
 
 <section class="section section-seo">

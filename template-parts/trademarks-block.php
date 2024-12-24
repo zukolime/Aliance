@@ -6,9 +6,11 @@
           echo '<h2 class="section-title trademark-section-title">'
           . $block_title .
         '</h2>';
+          echo '<h2 class="section-title-mobile">'
+          . $block_title .
+        '</h2>';
         }
         ?>
-        <h2 class="section-title-mobile">собственные марки</h2>
         <div class="trademark-cards">
           <a href="./ag-tech.php" class="trademark-card">
             <svg class="trademark-logo">

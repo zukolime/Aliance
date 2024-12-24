@@ -290,7 +290,9 @@
         </section>
 
 <?php include_once('./template-parts/research-centre-block.php')?>
+<div class="space-car-chem_mobile"></div>
 <?php include_once('./template-parts/steps-block.php')?>
-<div class="space"></div>
+<div class="space-car-chem"></div>
 <?php include_once('./template-parts/clients-block.php')?>
+<div class="space-car-chem"></div>
 <?php include_once('footer.php')?>

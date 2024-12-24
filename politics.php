@@ -1,6 +1,8 @@
 <?php 
 $page_title = 'Политика конфиденциальности'; 
 $header_style = 'bg';
+$title_style = "politics-title";
+$bg_style = 'bg-height-politics';
 include_once('header-page.php')?>
 
 <section class="section section-politics">

@@ -1457,7 +1457,7 @@ ul.breadcrumb li a {
 }
 
 .blog-section__pager {
-  display: inline-flex;
+  display: flex;
   list-style: none;
   align-items: center;
   margin: 1.2rem 0.2rem 0 0;
@@ -1465,6 +1465,9 @@ ul.breadcrumb li a {
 
 .blog-section__pager--item {
   padding: 1.05rem 1.25rem 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 160%;
 }
 
 .active-page {
@@ -1489,7 +1492,7 @@ ul.breadcrumb li a {
   margin-bottom: 1.3rem;
 }
 
-.space {
+.space-car-chem {
   margin-bottom: -2.6rem;
 }
 
@@ -2189,6 +2192,11 @@ ul.breadcrumb li a {
 
   .blog-section__footer {
     justify-content: center;
+  }
+
+  .bg-height-trademarks,
+  .bg-height-politics {
+    height: 22.875rem;
   }
 }
 @media (max-width: 576px) {
@@ -2923,12 +2931,18 @@ ul.breadcrumb li a {
     height: 18.275rem;
   }
 
+  .bg-height-trademarks {
+    height: 23.175rem;
+    margin-bottom: 5.2rem;
+  }
+
   .breadcrumb {
     margin-top: 1.9rem;
   }
 
   ul.breadcrumb li {
     font-size: 1.075rem;
+    line-height: 195%;
   }
 
   .section-experts {
@@ -2998,6 +3012,158 @@ ul.breadcrumb li a {
 
   .space-about {
     margin-top: 12.7rem;
+  }
+
+  .section-seo {
+    margin-top: -5.7rem;
+    margin-bottom: 12.9rem;
+  }
+
+  .section-seo--title {
+    letter-spacing: -0.4px;
+  }
+
+  .section-seo--description {
+    font-size: 1.3rem;
+    line-height: 167%;
+    margin: 1.0562rem 0 1.25rem 0;
+    letter-spacing: 0.2px;
+  }
+
+  .section-seo--button {
+    gap: 1.25rem;
+    font-size: 1.3rem;
+    margin-top: 1.45rem;
+  }
+
+  .bg-image-ag {
+    min-height: 25.375rem;
+  }
+
+  .section-contracts {
+    margin-bottom: -3.8rem;
+  }
+
+  .section-contracts__wrapper {
+    margin-bottom: -1.8rem;
+  }
+
+  .img-contracts {
+    max-height: 35.75rem;
+    margin-bottom: -0.9rem;
+  }
+
+  .section-contracts--description {
+    font-size: 1.175rem;
+  }
+
+  .section-contracts--description:not(:last-of-type) {
+    margin-top: -0.3rem;
+    margin-bottom: -0.65rem;
+    line-height: 158.4%;
+  }
+
+  .autochem-prod--description {
+    font-size: 1.2rem;
+    line-height: 155%;
+    margin-top: -0.4rem;
+    word-spacing: -1.6px;
+  }
+
+  .autochem-prod__list {
+    margin-top: 2.1rem;
+    margin-bottom: 3.9rem;
+  }
+
+  .autochem-prod__item {
+    gap: 1.25rem;
+    margin-top: -0.2rem;
+    padding-bottom: 1.05rem;
+  }
+
+  .section--autochem-types {
+    margin-top: -3.7rem;
+  }
+
+  .autochem-types--description {
+    font-size: 1.2rem;
+    line-height: 155.7%;
+    margin-top: -0.3rem;
+    letter-spacing: -0.2px;
+  }
+
+  .types__wrapper {
+    margin-top: 2.125rem;
+    margin-bottom: -5.6rem;
+  }
+
+  .types__wrapper--item {
+    max-width: 30rem;
+    font-size: 1.2rem;
+    padding-bottom: 1.55rem;
+    padding-left: 2.95rem;
+    background-position: 0 0.85rem;
+    background-size: 1.3rem;
+  }
+
+  .space-car-chem_mobile {
+    margin-top: -3.6rem;
+  }
+
+  .space-contracts {
+    margin-bottom: 7.8rem;
+  }
+
+  .space-car-chem {
+    margin-bottom: 12.3rem;
+  }
+
+  .space-trademarks {
+    margin-bottom: 12.9rem;
+  }
+
+  .section-blog {
+    margin-bottom: 12.8rem;
+  }
+
+  .blog__wrapper {
+    margin-top: -6.1rem;
+    gap: 0.275rem;
+  }
+
+  .blog-card-image,
+  .blog-card::before {
+    min-height: 15.1563rem;
+  }
+
+  .blog-section__pager {
+    margin: 4.1rem 0.2rem 0 0;
+    gap: 0.7rem;
+  }
+
+  .blog-section__pager--item {
+    font-size: 1.2rem;
+    padding: 0.95rem 1.45rem 0.75rem 1.65rem;
+  }
+
+  .section-politics {
+    margin-bottom: 11.1rem;
+  }
+
+  .bg-height-politics {
+    height: 28.075rem;
+    margin-bottom: -4.4rem;
+  }
+
+  .politics-title {
+    hyphens: auto;
+  }
+
+  .section-politics--description {
+    font-size: 1.2rem;
+    letter-spacing: -0.2px;
+    line-height: 153.2%;
+    margin-bottom: -0.3rem;
   }
 }
 
