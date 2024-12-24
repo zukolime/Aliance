@@ -18,7 +18,7 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <picture class="card-image">
+            <picture class="card-image" >
               <source type="image/webp" srcset="./img/avto-him.webp" class="card-image">
               <source type="image/jpeg" srcset="./img/avto-him.jpg" class="card-image">
               <img src="./img/avto-him.jpg" alt="avto-him" class="card-image"/>
@@ -33,7 +33,7 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <picture class="card-image">
+            <picture class="card-image" >
               <source type="image/webp" srcset="./img/byt-him.webp" class="card-image">
               <source type="image/jpeg" srcset="./img/byt-him.jpg" class="card-image">
               <img src="./img/byt-him.jpg" alt="byt-him" class="card-image" />
@@ -47,7 +47,7 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <picture class="card-image">
+            <picture class="card-image" >
               <source type="image/webp" srcset="./img/sanitation.webp" class="card-image">
               <source type="image/jpeg" srcset="./img/sanitation.jpg" class="card-image">
               <img src="./img/sanitation.jpg" alt="sanitation" class="card-image" />
@@ -62,7 +62,7 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <picture class="card-image">
+            <picture class="card-image" >
               <source type="image/webp" srcset="./img/food.webp" class="card-image">
               <source type="image/jpeg" srcset="./img/food.jpg" class="card-image">
               <img src="./img/food.jpg" alt="food" class="card-image" />
@@ -76,7 +76,7 @@
               </p>
             </div>
             <!-- /.card-content -->
-           <picture class="card-image">
+           <picture class="card-image" >
               <source type="image/webp" srcset="./img/cosmetic.webp" class="card-image" >
               <source type="image/jpeg" srcset="./img/cosmetic.jpg" class="card-image" >
               <img src="./img/cosmetic.jpg" alt="cosmetic" class="card-image" />
@@ -91,7 +91,7 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <picture class="card-image">
+            <picture class="card-image" >
               <source type="image/webp" srcset="./img/colorants.webp" class="card-image" >
               <source type="image/jpeg" srcset="./img/colorants.jpg" class="card-image" >
               <img src="./img/colorants.jpg" alt="colorants" class="card-image"  />

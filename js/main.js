@@ -44,16 +44,26 @@ mMenuToggle.addEventListener("click", (event) => {
 
 const swiper = new Swiper(".features-slider", {
   speed: 400,
-  slidesPerView: 1.5,
-  centeredSlides: true,
-  slidesOffsetBefore: -57,
+  slidesPerView: 1,
   navigation: {
     nextEl: ".slider-button-next",
     prevEl: ".slider-button-prev",
   },
   breakpoints: {
-    // when window width is >= 576px
+    // when window width is >= 375px
+    375: {
+      slidesPerView: 1.5,
+      centeredSlides: true,
+      slidesOffsetBefore: -57,
+    },
+    // when window width is >= 420px
+    420: {
+      centeredSlides: false,
+      slidesOffsetBefore: 0,
+    },
     576: {
+      centeredSlides: false,
+      slidesOffsetBefore: 0,
       slidesPerView: 2,
     },
     // when window width is >= 768px
@@ -79,7 +89,8 @@ const swiper = new Swiper(".features-slider", {
 
 const swiperSteps = new Swiper(".steps-slider", {
   speed: 400,
-  slidesPerView: 1,
+  slidesPerView: 1.5,
+  spaceBetween: 30,
   navigation: {
     nextEl: ".steps-button-next",
     prevEl: ".steps-button-prev",
@@ -211,7 +222,9 @@ forms.forEach((form) => {
         }).then((response) => {
           if (response.ok) {
             thisForm.reset();
-            currentModal.classList.remove("is-open");
+            if (currentModal) {
+              currentModal.classList.remove("is-open");
+            }
             alertModal.classList.add("is-open");
             currentModal = alertModal;
             modalDialog = currentModal.querySelector(".modal-dialog");

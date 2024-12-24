@@ -324,7 +324,7 @@ use.arrow-next-gray {
   display: flex;
   list-style: none;
   padding: 0;
-  gap: 3.675rem;
+  gap: 1.875rem;
 }
 .steps-item {
   max-width: 300px;
@@ -845,7 +845,7 @@ use.arrow-next-gray {
   align-items: center;
 }
 .footer-logo {
-  width: 12.5rem;
+  width: 11rem;
   height: 3.95rem;
 }
 .footer-info {
@@ -1544,7 +1544,7 @@ ul.breadcrumb li a {
   }
 
   .steps-item {
-    max-width: 18.625rem;
+    max-width: 17.625rem;
   }
 
   .input-group {
@@ -1607,11 +1607,6 @@ ul.breadcrumb li a {
 
   .input-group {
     width: auto;
-  }
-
-  .footer-logo {
-    width: 12.5rem;
-    height: 3.95rem;
   }
 
   .section-contracts__wrapper {
@@ -2059,18 +2054,32 @@ ul.breadcrumb li a {
   }
 
   .button-link:hover::before {
-    width: 3.3rem;
+    width: 2.5rem;
+    transition: none;
   }
 
-  .header-nav-link::after,
-  .button-link:before,
-  .card,
-  .card .card-title,
-  .trademark-card,
-  .trademark-card .trademark-logo,
-  .trademark-card .trademark-title,
-  .clients-logo-item {
-    pointer-events: none;
+  .card {
+    transition: none;
+  }
+
+  .card:hover .card-title {
+    color: #292d33;
+    transition: none;
+  }
+
+  .card:hover {
+    border-color: #ebebf0;
+    transition: none;
+  }
+
+  .trademark-card:hover {
+    border-color: #ebebf0;
+    transition: none;
+  }
+
+  .trademark-card:hover .trademark-title {
+    color: #292d33;
+    transition: none;
   }
 }
 @media (max-width: 852px) {
@@ -2163,7 +2172,7 @@ ul.breadcrumb li a {
   }
 
   .wrapper__experts--picture {
-    width: 100%;
+    max-width: 26.25rem;
   }
 
   .research-centre__text:last-child {
@@ -2377,14 +2386,17 @@ ul.breadcrumb li a {
     align-items: flex-start;
   }
 
+  .wrapper__experts--content {
+    margin-top: 3rem;
+  }
+
   .wrapper__personal-photo {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
   }
 
   .personal-picture {
-    max-width: 38rem;
-    width: 100%;
+    max-width: 26.25rem;
   }
 
   .section-contracts__wrapper {
@@ -2963,7 +2975,6 @@ ul.breadcrumb li a {
 
   .personal-picture {
     max-width: 29rem;
-    width: 100%;
   }
 
   .wrapper__experts--description {
@@ -3168,8 +3179,11 @@ ul.breadcrumb li a {
 }
 
 @media (max-width: 374px) {
+  html {
+    font-size: 10px;
+  }
   .mobile-menu-toggle {
-    padding: 0.9375rem 1.275rem;
+    padding: 0.9375rem 1.875rem;
   }
 
   .close-menu .mobile-menu-line:nth-child(1) {
@@ -3180,14 +3194,27 @@ ul.breadcrumb li a {
     transform: rotate(-45deg) translateY(-12.7px);
   }
 
+  .container {
+    margin-left: 0.5625rem;
+    max-width: 33.9812rem;
+  }
+
   .header-button {
     width: 100%;
     max-width: 95%;
   }
 
+  .header-features-item {
+    min-width: 313.433px;
+  }
+
   .steps {
     margin-bottom: 1.4rem;
     gap: 0.075rem;
+  }
+
+  .slider-buttons {
+    margin-bottom: 1.5625rem;
   }
 
   .founder-content-wrapper {
@@ -3198,11 +3225,19 @@ ul.breadcrumb li a {
     padding: 2.7rem 0.4rem 0 0.7rem;
   }
 
+  .wrapper__experts--picture {
+    max-width: 20.25rem;
+  }
+
   .wrapper__experts--img {
     min-width: 21rem;
     min-height: 15rem;
   }
 
+  .personal-picture {
+    max-width: 24rem;
+    width: auto;
+  }
   .input-group {
     max-width: 100%;
   }

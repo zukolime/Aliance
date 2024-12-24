@@ -30,12 +30,15 @@
               дальнейших направлений развития.
             </p>
 
+            <a href="./about.php" class="button-link founder-link-mobile">О нашей миссии</a>
+
         <?php 
               if (!empty($link_title)) {
           echo '<a href="./about.php" class="button-link founder-link">Подробнее о компании</a>';
-          echo '<a href="./about.php" class="button-link founder-link-mobile">О нашей миссии</a>';
           }
         ?>
+
+        
 
         
           </div>

@@ -1,9 +1,10 @@
+
 <section class="cta">
       <div class="bg-grey section-cta <?= $cta_style;?>">
-        <picture class="cta-image">
-          <source type="image/webp" srcset="./img/cta.webp" class="cta-image" loading="lazy">
-          <source type="image/jpeg" srcset="./img/cta.jpg" class="cta-image" loading="lazy">
-          <img src="./img/cta.jpg" alt="cta" class="cta-image" loading="lazy"/>
+        <picture class="cta-image" >
+          <source type="image/webp" srcset="./img/cta.webp" class="cta-image">
+          <source type="image/jpeg" srcset="./img/cta.jpg" class="cta-image" >
+          <img src="./img/cta.jpg" alt="cta" class="cta-image"/>
         </picture>
         <div class="cta-form-wrapper container">
           <form action="handler.php" method="POST" class="cta-form">
@@ -93,7 +94,7 @@
           </div>
         </div>
       </div>
-      <hr color="#ebebf0" class="footer-seporator" />
+      <hr class="footer-seporator" />
       <div class="container">
         <div class="footer-bottom">
           <div class="footer-menu-wrapper">
@@ -154,7 +155,7 @@
           </div>
         </div>
       </div>
-      <hr color="#ebebf0" class="footer-seporator" />
+      <hr class="footer-seporator" />
       <div class="container">
         <div class="footer-wrapper">
           <div class="footer-legal">
@@ -194,7 +195,6 @@
                     type="text"
                     class="input modal-input"
                     name="user_name"
-                    class="input"
                     placeholder=" "
                   />
                   <label
@@ -260,6 +260,7 @@
             <a href="./index.php" class="button modal-success-button">
                   Вернуться на главную
             </a>
+          </div>
         </div>
 
         <script src="./js/swiper-bundle.min.js"></script>        
