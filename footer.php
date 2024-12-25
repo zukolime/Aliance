@@ -103,7 +103,7 @@
             <a href="./contracts.php" class="footer-menu-title">Контрактное производство</a>
             <ul class="footer-menu-list footer-menu-column-2">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автомобильная химия</a>
+                <a href="./car-chem.php" class="footer-menu-link">Автомобильная химия</a>
               </li>
               <li class="footer-menu-item">
                 <a href="#" class="footer-menu-link">Бытовая химия</a>
@@ -128,7 +128,7 @@
             <a href="./trademarks.php" class="footer-menu-title">Собственные марки</a>
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автохимия AG-Tech</a>
+                <a href="./ag-tech.php" class="footer-menu-link">Автохимия AG-Tech</a>
               </li>
               <li class="footer-menu-item">
                 <a href="#" class="footer-menu-link">Автохимия AP</a>
@@ -139,17 +139,17 @@
           <div class="footer-menu-wrapper">
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold"
+                <a href="./about.php" class="footer-menu-link footer-menu-link-bold"
                   >О компании</a
                 >
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold"
+                <a href="./blog.php" class="footer-menu-link footer-menu-link-bold"
                   >Новости</a
                 >
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold"
+                <a href="./contacts.php" class="footer-menu-link footer-menu-link-bold"
                   >Контакты</a
                 >
               </li>
